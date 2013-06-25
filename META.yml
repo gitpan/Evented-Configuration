@@ -15,10 +15,11 @@ name: Evented-Configuration
 provides:
   Evented::Configuration:
     file: lib/Evented/Configuration.pm
-    version: 3.2
+    version: 3.31
 requires:
+  Evented::Object: 3.50
   perl: 5.010
 resources:
   license: http://opensource.org/licenses/bsd-license.php
   repository: https://github.com/cooper/evented-configuration
-version: 3.1
+version: 3.31

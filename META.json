@@ -21,6 +21,7 @@
       },
       "runtime" : {
          "requires" : {
+            "Evented::Object" : "3.50",
             "perl" : "5.010"
          }
       }
@@ -28,7 +29,7 @@
    "provides" : {
       "Evented::Configuration" : {
          "file" : "lib/Evented/Configuration.pm",
-         "version" : "3.2"
+         "version" : "3.31"
       }
    },
    "release_status" : "stable",
@@ -40,5 +41,5 @@
          "url" : "https://github.com/cooper/evented-configuration"
       }
    },
-   "version" : "3.1"
+   "version" : "3.31"
 }
