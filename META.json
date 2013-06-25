@@ -1,0 +1,44 @@
+{
+   "abstract" : "an evented configuration file in a unique and clean format",
+   "author" : [
+      "Mitchell Cooper <cooper@cpan.org>"
+   ],
+   "dynamic_config" : 0,
+   "generated_by" : "Module::Build version 0.4005, CPAN::Meta::Converter version 2.112150",
+   "license" : [
+      "bsd"
+   ],
+   "meta-spec" : {
+      "url" : "http://search.cpan.org/perldoc?CPAN::Meta::Spec",
+      "version" : "2"
+   },
+   "name" : "Evented-Configuration",
+   "prereqs" : {
+      "configure" : {
+         "requires" : {
+            "Module::Build" : "0.40"
+         }
+      },
+      "runtime" : {
+         "requires" : {
+            "perl" : "5.010"
+         }
+      }
+   },
+   "provides" : {
+      "Evented::Configuration" : {
+         "file" : "lib/Evented/Configuration.pm",
+         "version" : "3.2"
+      }
+   },
+   "release_status" : "stable",
+   "resources" : {
+      "license" : [
+         "http://opensource.org/licenses/bsd-license.php"
+      ],
+      "repository" : {
+         "url" : "https://github.com/cooper/evented-configuration"
+      }
+   },
+   "version" : "3.1"
+}
